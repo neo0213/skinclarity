@@ -1,6 +1,5 @@
 [build]
-base = "python:3.9"
-install = "pip install -r requirements.txt"
+command = "pip install --no-cache-dir -r requirements.txt"
 
-[deploy]
-start = "python src/app.py"
+[start]
+command = "python src/app.py"
