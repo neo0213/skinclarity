@@ -1,0 +1,6 @@
+[build]
+base = "python:3.9"
+install = "pip install -r requirements.txt"
+
+[deploy]
+start = "python src/app.py"
